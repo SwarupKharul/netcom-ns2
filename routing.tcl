@@ -1,4 +1,5 @@
 set ns [new Simulator]
+$ns rtproto LS
 set nf [open out.nam w]
 $ns namtrace-all $nf
 set tr [open out.tr w]

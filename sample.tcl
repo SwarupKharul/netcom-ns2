@@ -3,7 +3,7 @@ $ns color 1 blue
 $ns color 2 red
 $ns rtproto DV
 set nf [open out.nam w]
-$ns namtrace-all $nf
+$ns namtrace-all $nf 
 proc finish {} {
  global ns nf
  $ns flush-trace
